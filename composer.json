@@ -1,0 +1,35 @@
+{
+    "name": "jgu/wfotp",
+    "description": "OTP approval workflow",
+    "authors": [
+        {
+            "name": "yogesh chauhan",
+            "email": "yogesh@jgu.edu.in",
+            "homepage": "https://jgu.edu.in"
+        }
+    ],
+    "homepage": "https://github.com/jgu/wfa",
+    "keywords": [
+        "Laravel",
+        "OTP"
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^7.41",
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jgu\\Wfotp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jgu\\Wfotp\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "illuminate/support": "^9.52",
+        "yajra/laravel-auditable": "^4.6",
+        "laravel-notification-channels/aws-sns": "^1.5"
+    }
+}
